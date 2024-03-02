@@ -29,30 +29,24 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
 .reviews-container {
-            /* width: 1280px; */
             min-width: 320px;
             max-width: 375px;
             margin: 0 auto;
-            /* padding-left: 100px;
-            padding-right: 101px; */
-            padding: 80px 20px;
+            padding: 0 20px;
 }
 .reviews {
     font-family: "Inter Tight", sans-serif;
-    /* padding: 100px 0; */
     background: #fbfbfb;
     
 }
 .title-reviews {
         font-weight: 600;
-        /* font-size: 64px; */
-        /* line-height: 1; */
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
-        /* margin-bottom: 25px;
-        width: 553px; */
  font-size: 48px;
             line-height: 1.04167;
             margin-bottom: 20px;
@@ -64,24 +58,16 @@ img {
 }
 .reviews-p {
         font-weight: 500;
-        /* font-size: 16px; */
-        /* line-height: 1.25; */
         color: #141414;
-        /* margin-bottom: 50px;
-        width: 553px; */
             font-size: 14px;
             line-height: 1.28571;
             margin-bottom: 40px;
 }
 .reviews-ul {
 display: flex;
-/* gap: 25px; */
-/* height: 258px; */
 height: 238px;
 }
 .reviews-li {
-    /* width: calc((100% - 20px) / 3); */
-/* padding: 20px 27.5px 20px 27.5px; */
 border: 1px solid rgba(122, 49, 69, 0.3);
     border-radius: 24px;
     background: #fbfbfb;
@@ -100,11 +86,8 @@ margin: 0 auto;
 }
 .reviews-name {
     font-weight: 600;
-    /* font-size: 18px; */
-    /* line-height: 1.1; */
     letter-spacing: -0.02em;
     text-align: center;
-    /* color: #141414; */
     margin-top: 24px;
     margin-bottom: 8px;
 font-size: 16px;
@@ -113,10 +96,7 @@ font-size: 16px;
 }
 .reviews-p-li {
     font-weight: 500;
-    /* font-size: 16px; */
-    /* line-height: 1.4; */
     text-align: center;
-    /* color: rgba(20, 20, 20, 0.4); */
         font-size: 14px;
         line-height: 1.28571;
         color: rgba(4, 3, 6, 0.4);
@@ -127,7 +107,7 @@ font-size: 16px;
         min-width: 0;
         max-width: none;
         width: 768px;
-        padding: 100px 32px;
+        padding: 0 32px;
     }
     .title-reviews {
             font-size: 64px;
@@ -171,7 +151,7 @@ height: 258px;
 @media screen and (min-width: 1280px) {
     .reviews-container {
         width: 1280px;
-                padding: 100px;
+                padding: 0 100px;
 }
     .reviews {
         
